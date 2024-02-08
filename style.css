@@ -1,0 +1,90 @@
+/* Resetting default styles */
+
+body {
+    background-image: url("./bac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Using cover for better background image scaling */
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0; /* Ensuring no margin for h1 inside header */
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav a {
+        padding: 10px 15px;
+    }
+    article h2 {
+        font-size: 20px;
+    }
+    article p {
+        font-size: 14px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
